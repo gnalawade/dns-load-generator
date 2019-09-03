@@ -1,15 +1,12 @@
-# ppdns_stress
+# DNS Load Generator
 
-PPDNS Stress is a DNS query load generator script written in Python3.
+DNS Load Generator is a DNS query load generator script written in Python3.
 
-This forked version of PPDNS Stress leverages the Python [argparse](https://docs.python.org/3/library/argparse.html) module to accept user input from CLI and then generate DNS queries of various record types towards DNS servers.
-
-## Demo
-A demo of Flask Password can be found [here](https://www.icarustech.com/flask-password/).
+This forked version of [ppdns_stress](https://github.com/VigneshSP94/ppdns_stress) leverages the Python [argparse](https://docs.python.org/3/library/argparse.html) module to accept user input from CLI and then generate DNS queries of various record types towards DNS servers.
 
 ## Screenshots
 
-![Screenshot of script execution](docs/media/script_excution.png "Script execution")
+![Screenshot of script execution](docs/media/script_execution.png "Script execution")
 ![Screenshot of Wireshark capture](docs/media/packet_capture.png "Wireshark packet capture")
 
 ## Installation
@@ -32,7 +29,7 @@ python ppdnstress.py
 
 ## Usage
 
-This version of PPDNS Stress has been modified to include command line arguments. This is useful for generating queries quickly without needing to manually input settings every time.
+This version of DNS Load Generator has been modified to include command line arguments. This is useful for generating queries quickly without needing to manually input settings every time.
 
 ```
 user@demo ~ $ python3 ppdnstress.py -h
