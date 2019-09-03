@@ -99,7 +99,7 @@ def main():
         )
     args = parser.parse_args()
 
-    DNSQueryGenerator(
+    return DNSQueryGenerator(
         count=args.count, destinations=args.destinations, record=args.record,
             type=args.type, verbose=args.verbose
         ).queue_handler()
