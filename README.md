@@ -22,7 +22,7 @@ This forked version of [ppdns_stress](https://github.com/VigneshSP94/ppdns_stres
 ```
 cd dns-load-generator
 python3 -m venv .
-python dns-load-gen.py
+python dns_load_gen.py
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ This version of DNS Load Generator has been modified to include command line arg
 
 ```
 user@demo ~ $ python3 dns-load-gen.py -h
-usage: dns-load-gen.py [-h] [-c 10] -d 192.0.2.1 [192.0.2.1 ...] -r example.com
+usage: dns_load_gen.py [-h] [-c 10] -d 192.0.2.1 [192.0.2.1 ...] -r example.com
                      [-t {a,cname,mx,ns,ptr,soa,srv,txt}] [-v]
 
 optional arguments:
