@@ -17,14 +17,12 @@ This forked version of [ppdns_stress](https://github.com/VigneshSP94/ppdns_stres
 **Method 2 - Create a Python Venv**
 1. Browse to the project folder.
 2. Create Python Virtual Environment [(venv)](https://docs.python.org/3/library/venv.html) and activate it.
-3. Install the package requirements by running `pip install -r requirements.txt`.
-4. Run the script!
+3. Run the script!
 
 ```
-cd ppdns_stress
+cd dns-load-generator
 python3 -m venv .
-pip install -r requirements.txt
-python ppdnstress.py
+python dns_load_gen.py
 ```
 
 ## Usage
@@ -32,8 +30,8 @@ python ppdnstress.py
 This version of DNS Load Generator has been modified to include command line arguments. This is useful for generating queries quickly without needing to manually input settings every time.
 
 ```
-user@demo ~ $ python3 ppdnstress.py -h
-usage: ppdnstress.py [-h] [-c 10] -d 192.0.2.1 [192.0.2.1 ...] -r example.com
+user@demo ~ $ python3 dns-load-gen.py -h
+usage: dns_load_gen.py [-h] [-c 10] -d 192.0.2.1 [192.0.2.1 ...] -r example.com
                      [-t {a,cname,mx,ns,ptr,soa,srv,txt}] [-v]
 
 optional arguments:
